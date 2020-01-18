@@ -11,7 +11,7 @@ body {
     background-color:rgb(36, 37, 38);
     color:#fff;
     text-align:center;
-    max-height:70px;
+    max-height:100px;
     width:flex;
     padding:0px 0px 0px 0px;
     margin:0 auto;
@@ -51,15 +51,15 @@ body {
 .history-btn {
     background-color:rgb(246, 248, 249);
 }
-.show {
+/* .show {
     visibility:visible;
-}
-.searchTitle {
-    text-align: left;
-}
-footer{
+} */
+/* .searchTitle {
+    text-align: left; */
+/* } */
+/* footer{
     text-align: center;
-}
+} */
 @media (min-width: 1200px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1279px;
