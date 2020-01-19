@@ -8,6 +8,16 @@ body {
 }
 .jumbotron {
     height: 100px;
+}
+
+#searchBtn {
+    height: 30px;
+    width: 30px;
+}
+
+#city-Name {
+    height: 40px;
+    width: 165px;
 
 }
 
