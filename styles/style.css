@@ -3,8 +3,23 @@
     margin: 0;
 }
 body {    
-        height:100%;
-        margin-bottom: 40px;
+    height:100%;
+    margin-bottom: 40px;
+}
+.jumbotron {
+    height: 100px;
+
+}
+
+h1 {
+    padding-top: 30px;
+}
+
+h4 {
+    padding-top: 20px;
+    align-items: center;
+    margin-bottom: 0;
+
 }
 
 #dashboard {
@@ -42,7 +57,7 @@ body {
 .col {
     margin-right:25px;
     margin-top:30px;
-    margin-left:25px;
+    /* margin-left:25px; */
 }
 
 .card {
