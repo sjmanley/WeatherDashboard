@@ -20,7 +20,10 @@ body {
     width: 165px;
 
 }
-
+.forecast.col-md-9 {
+height: 400px;
+width: 300px;
+}
 h1 {
     padding-top: 30px;
 }
@@ -52,6 +55,7 @@ h4 {
 #forecast {
     background-color:#fff;
     margin-top:10px;
+    height: 300px;
     /* display: none; */
 }
 .five{

@@ -110,7 +110,7 @@ $( document ).ready(function() {
                     $("#city-Name").text(response.name + ", " + response.sys.country + " " + moment().format('l'));
                     
                     $("#imgIcon").html(img);
-                    $("#temp").text(response.main.temp + " °F");
+                    $("#temp").text(response.main.temp + "°F");
                     $("#temp").wrap("<strong></strong>");
                     $("#humidity").text(response.main.humidity + "%");
                     $("#humidity").wrap("<strong></strong>");
@@ -128,7 +128,7 @@ $( document ).ready(function() {
         
         var fiveDay = function() {
             $.ajax({
-                url: "https://api.openweathermap.org/data/2.5/forecast?q=" + city + apiKey,
+                url: "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&units=imperial" + apiKey,
                 method: "GET",
                 
             }).then(function (response) {
